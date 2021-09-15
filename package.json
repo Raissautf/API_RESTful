@@ -24,7 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.5",
     "path": "^0.12.7",
-    "streamlit"
+    
   },
   "devDependencies": {
     "eslint": "^7.32.0"
