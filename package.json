@@ -1,0 +1,31 @@
+{
+  "name": "teste-sky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev:start": "nodemon -r dotenv/config src/index.js --ignore tests",
+    "test": ""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Raissa Macedo",
+    "email": "raissamacedo7@gmail.com",
+    "url": "https://www.linkedin.com/in/raissa-pereira-885a891a9/"
+  },
+  
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
